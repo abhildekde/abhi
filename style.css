@@ -1,0 +1,158 @@
+/* page class 1st and 4th */
+section div.pages ul li {
+    display: inline-block;
+  }
+  
+  section div.pages ul li.fiest a {
+    display: grid;
+    height: 50px;
+    width: 150px;
+    background: linear-gradient(#ff8800, red);
+    position: absolute;
+    margin: auto;
+    left: 250px;
+    /* top: 0; */
+    /* bottom: 0; */
+    place-items: center;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-radius: 5px;
+  }
+  
+  section div.pages ul li.second a {
+    display: grid;
+    height: 50px;
+    width: 150px;
+    background: linear-gradient(#ff8800, red);
+    position: absolute;
+    margin: auto;
+    left: 600px;
+    /* top: px; */
+    /* bottom: 0; */
+    place-items: center;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-radius: 5px;
+  }
+  
+  section div.pages ul li.third a {
+    display: grid;
+    height: 50px;
+    width: 150px;
+    background: linear-gradient(#ff8800, red);
+    position: absolute;
+    margin: auto;
+    left: 950px;
+    /* top: 10px; */
+    /* bottom: 0; */
+    place-items: center;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-radius: 5px;
+  }
+  
+  section div.pages ul li.four a {
+    display: grid;
+    height: 50px;
+    width: 150px;
+    background: linear-gradient(#ff8800, red);
+    position: absolute;
+    margin: auto;
+    left: 1290px;
+    /* top: 10px; */
+    /* bottom: 0; */
+    place-items: center;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-radius: 5px;
+  }
+  
+  @media screen and (max-width:1250px) {
+    section div.pages ul li.fiest a {
+      display: grid;
+      height: 40px;
+      width: 125px;
+      background: linear-gradient(#ff8800, red);
+      position: absolute;
+      margin: auto;
+      left: 7px;
+      place-items: center;
+      font-family: "Poppins", sans-serif;
+      color: white;
+      font-size: 15px;
+      font-weight: 500;
+      text-decoration: none;
+      letter-spacing: 2px;
+      border-radius: 5px;
+    }
+  
+    section div.pages ul li.second a {
+      display: grid;
+      height: 40px;
+      width: 125px;
+      background: linear-gradient(#ff8800, red);
+      position: absolute;
+      margin: auto;
+      left: 160px;
+      place-items: center;
+      font-family: "Poppins", sans-serif;
+      color: white;
+      font-size: 15px;
+      font-weight: 500;
+      text-decoration: none;
+      letter-spacing: 2px;
+      border-radius: 5px;
+    }
+  
+    section div.pages ul li.third a {
+      display: grid;
+      height: 40px;
+      width: 125px;
+      background: linear-gradient(#ff8800, red);
+      position: absolute;
+      margin: auto;
+      left: 315px;
+      place-items: center;
+      font-family: "Poppins", sans-serif;
+      color: white;
+      font-size: 15px;
+      font-weight: 500;
+      text-decoration: none;
+      letter-spacing: 2px;
+      border-radius: 5px;
+    }
+  
+    section div.pages ul li.four a {
+      display: grid;
+      height: 40px;
+      width: 125px;
+      background: linear-gradient(#ff8800, red);
+      position: absolute;
+      margin: auto;
+      left: 470px;
+      place-items: center;
+      font-family: "Poppins", sans-serif;
+      color: white;
+      font-size: 15px;
+      font-weight: 500;
+      text-decoration: none;
+      letter-spacing: 2px;
+      border-radius: 5px;
+    }
+  }
